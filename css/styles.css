@@ -2,6 +2,10 @@
   background-color: #ff4c68;
 }
 
+.container-fluid{
+  padding: 3% 10% !important;
+}
+
 
 .header-text{
   font-family: 'Montserrat', sans-serif;
