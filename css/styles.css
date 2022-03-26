@@ -9,7 +9,7 @@ body{
 }
 
 .container-fluid{
-  padding: 3% 10% !important;
+  padding: 3% 10% 7% !important;
 }
 
 /* navbar */
@@ -37,7 +37,7 @@ body{
 .header-text{
   font-family: 'Montserrat', sans-serif;
   font-weight:900;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.5;
   width: 70%;
 }
@@ -52,8 +52,13 @@ body{
 /* title image */
 
 .title-image{
-  width: 60%;
+  
+  width: 20%;
   transform: rotate(25deg);
+  position: absolute;
+  right:20%;
+  top: 20%;
+  
 }
 
 /* features sections */
@@ -61,6 +66,8 @@ body{
 #features{
   background-color: white;
   padding: 5% 15%;
+  position: relative;
+ 
 
 }
 
